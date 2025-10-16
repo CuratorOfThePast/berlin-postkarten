@@ -10,6 +10,15 @@ L.tileLayer(
   }
 ).addTo(map);
 
+// Rechtsklick-Listener
+map.on('contextmenu', function(e) {
+    const lat = e.latlng.lat.toFixed(6);
+    const lon = e.latlng.lng.toFixed(6);
+
+    console.log(`"lat": ${lat},\n"lon": ${lon}`);
+    alert(`Koordinaten kopieren:\n"lat": ${lat},\n"lon": ${lon}`);
+});
+
 // JSON laden
 fetch('karten.json')
   .then(res => res.json())
@@ -72,5 +81,6 @@ if(searchInput) {
     renderCards(filtered);
   });
 }
+
 
 
