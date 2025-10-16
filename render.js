@@ -10,14 +10,29 @@ L.tileLayer(
   }
 ).addTo(map);
 
-// Rechtsklick-Listener
-map.on('contextmenu', function(e) {
-    const lat = e.latlng.lat.toFixed(6);
-    const lon = e.latlng.lng.toFixed(6);
+let clickTimer;
 
-    console.log(`"lat": ${lat},\n"lon": ${lon}`);
-    alert(`Koordinaten kopieren:\n"lat": ${lat},\n"lon": ${lon}`);
+map.on('mousedown', function(e) {
+    // Linksklick nur
+    if (e.originalEvent.button !== 0) return;
+
+    clickTimer = setTimeout(() => {
+        const lat = e.latlng.lat.toFixed(6);
+        const lon = e.latlng.lng.toFixed(6);
+
+        console.log(`"lat": ${lat},\n"lon": ${lon}`);
+        alert(`Koordinaten kopieren:\n"lat": ${lat},\n"lon": ${lon}`);
+    }, 800); // 800ms = Long-Click
 });
+
+map.on('mouseup', function(e) {
+    clearTimeout(clickTimer); // abbrechen, wenn kurz geklickt
+});
+
+map.on('mouseout', function(e) {
+    clearTimeout(clickTimer); // abbrechen, wenn Maus die Karte verlässt
+});
+
 
 // JSON laden
 fetch('karten.json')
@@ -81,6 +96,7 @@ if(searchInput) {
     renderCards(filtered);
   });
 }
+
 
 
 
