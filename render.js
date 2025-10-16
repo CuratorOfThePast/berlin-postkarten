@@ -1,5 +1,33 @@
 let data; // globale Variable, damit sie auch in der Suche verwendet werden kann
 
+const map = L.map('map').setView([52.52, 13.405], 13);
+
+// OSM-Tiles (oder später OpenHistoricalMap Tiles)
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  attribution: '&copy; OpenStreetMap contributors'
+}).addTo(map);
+
+fetch('karten.json') // Pfad zu deinem JSON
+  .then(res => res.json())
+  .then(data => {
+    data.forEach(k => {
+      // Marker setzen
+      if(k.lat && k.lon) {
+        L.marker([k.lat, k.lon])
+          .bindPopup(`
+            <b>${k.titel}</b> (${k.jahr || 'unbekannt'})<br>
+            <p>${k.beschreibung}</p>
+            <img src="${k.vorderseite}" width="200"><br>
+            ${k.rueckseite ? `<img src="${k.rueckseite}" width="200"><br>` : ''}
+            <a href="${k.ohm_node_link}" target="_blank">In OHM ansehen</a>
+          `)
+          .addTo(map);
+      }
+    });
+  })
+  .catch(err => console.error('Fehler beim Laden der Karten:', err));
+
+
 // JSON laden
 fetch('karten.json')
   .then(response => response.json())
@@ -43,4 +71,5 @@ searchInput.addEventListener('input', () => {
 
   renderCards(filtered);
 });
+
 
