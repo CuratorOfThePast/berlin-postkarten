@@ -20,7 +20,7 @@
     "rueckseite": "",
     "beschreibung": "Hotel zum Grünen Baum von Wilh. Giersch, Krausenstraße 56-58",
     "verlag": "Krüger & Co.",
-    "quelle": "https://web.archive.org/web/20251013162716/https://www.ebay.de/itm/277271551173"
+    "quelle": "https://web.archive.org/web/20251013162716/https://www.ebay.de/itm/277271551173",
     "lat": 52.5098084,
     "lon": 13.3931550,
     "ohm_node_link": "https://www.openhistoricalmap.org/node/2125014247"
@@ -77,4 +77,5 @@
   }
 
 ]
+
 
