@@ -1,0 +1,72 @@
+[
+  {
+    "id": "zum-klaussner-1913",
+    "titel": "Zum Klaussner",
+    "jahr": "1913",
+    "vorderseite": "https://web.archive.org/web/20251013143953/https://i.ebayimg.com/images/g/hOYAAeSwcR1o1B-T/s-l1600.webp",
+    "rueckseite": "",
+    "beschreibung": "Restaurant Zum Klaussner, Krausenstraße 64 ",
+    "verlag": "unbekannt",
+    "quelle": "https://web.archive.org/web/20251013143952/https://www.ebay.de/itm/277401346329"
+  },
+  {
+    "id": "hotel-zum-grünen-baum",
+    "titel": "Hotel zum Grünen Baum",
+    "jahr": "unbekannt",
+    "vorderseite": "http://web.archive.org/web/20251013143237/https://i.ebayimg.com/images/g/CAoAAeSwbmtodjjV/s-l1600.jpg",
+    "rueckseite": "",
+    "beschreibung": "Hotel zum Grünen Baum von Wilh. Giersch, Krausenstraße 56-58",
+    "verlag": "Krüger & Co.",
+    "quelle": "https://web.archive.org/web/20251013162716/https://www.ebay.de/itm/277271551173"
+  },
+   {
+    "id": "hotel-zum-grünen-baum",
+    "titel": "Hotel zum Grünen Baum",
+    "jahr": "unbekannt",
+    "vorderseite": "https://web.archive.org/web/2/https://i.ebayimg.com/images/g/6EEAAeSwz5lnsL4q/s-l960.jpg",
+    "rueckseite": "https://web.archive.org/web/2/https://i.ebayimg.com/images/g/oe8AAeSw2iNnsL4q/s-l960.jpg",
+    "beschreibung": "Hotel zum Grünen Baum Bes. August Lücke, Krausenstraße 56, 57, 58",
+    "verlag": "unbekannt",
+    "quelle": "https://web.archive.org/web/2/https://www.ebay.de/itm/235959889357"
+  },
+   {
+    "id": "bierhaus-zum-klaussner",
+    "titel": "Bierhaus Zum Klaussner",
+    "jahr": "unbekannt",
+    "vorderseite": "https://web.archive.org/web/20251013164108/https://i.ebayimg.com/images/g/j3cAAeSwwV9oysH3/s-l1600.jpg",
+    "rueckseite": "https://web.archive.org/web/20251013164822/https://i.ebayimg.com/images/g/GY4AAeSwSixoysH3/s-l1600.jpg",
+    "beschreibung": "Bierhaus Zum Klaussner, Innenansicht, Krausenstraße 64",
+    "verlag": "Kunstanstalt Voremberg",
+    "quelle": "https://web.archive.org/web/20251013165209/https://www.ebay.de/itm/317297069824"
+  },
+   {
+    "id": "hotel-weißes-haus",
+    "titel": "Hotel zum Grünen Baum",
+    "jahr": "unbekannt",
+    "vorderseite": "https://web.archive.org/web/20251013165529/https://i.ebayimg.com/images/g/eVkAAeSwMNRns7v4/s-l960.jpg",
+    "rueckseite": "https://web.archive.org/web/20251013165635/https://i.ebayimg.com/images/g/77QAAeSwjc1ns7v4/s-l960.jpg",
+    "beschreibung": "Hotel Weißes Haus",
+    "verlag": "unbekannt",
+    "quelle": "https://www.ebay.de/itm/387960275714"
+  },
+  {
+    "id": "hotel-weißes-haus",
+    "titel": "Zum Klaussner",
+    "jahr": "unbekannt",
+    "vorderseite": "https://web.archive.org/web/20251015143111/https://i.ebayimg.com/images/g/WooAAeSwft1oup7E/s-l1600.jpg",
+    "rueckseite": "https://web.archive.org/web/20251015143200/https://i.ebayimg.com/images/g/UWwAAeSw7c5oup7F/s-l1600.jpg",
+    "beschreibung": "Zum Klaussner Gegründet 1875",
+    "verlag": "unbekannt",
+    "quelle": "https://www.ebay.de/itm/336162610884"
+  },
+  {
+    "id": "200-Jubiläum-Charlottenburg",
+    "titel": "200-Jähriges Jubiläum von Charlottenburg",
+    "jahr": "1905",
+    "vorderseite": "https://web.archive.org/web/20251015181935/https://i.ebayimg.com/images/g/63AAAeSwkJRo5jB9/s-l1600.jpg",
+    "rueckseite": "https://web.archive.org/web/20251015182058/https://i.ebayimg.com/images/g/cDwAAeSwGyxo5jB9/s-l1600.jpg",
+    "beschreibung": "Zur Erinnerung a.d. 200 jähriges Bestehen der Stadt Charlottenburg und der Einweihung des neuen Rathauses, 1705–1905",
+    "verlag": "A. D. & Co.",
+    "quelle": "https://www.ebay.de/itm/397135282399"
+  }
+]
