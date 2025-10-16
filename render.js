@@ -2,8 +2,8 @@ let data; // globale Variable für Suche & Karte
 
 const map = L.map('map').setView([52.52, 13.405], 13);
 
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  attribution: '&copy; OpenStreetMap contributors'
+L.tileLayer('https://tiles.codefor.de/berlin/geoportal/historische-karten/straubeplan/{z}/{x}/{y}.png', {
+  attribution: '"<a href=\"https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/9271450c-f95a-358a-9cff-093484cb73ae\" target=\"_blank\">Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen Berlin / Straubes Übersichtsplan von Berlin (Historische Mitte)</a>"'
 }).addTo(map);
 
 // JSON laden
@@ -68,3 +68,4 @@ if(searchInput) {
     renderCards(filtered);
   });
 }
+
