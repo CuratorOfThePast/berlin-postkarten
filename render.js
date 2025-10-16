@@ -1,7 +1,7 @@
 let data; // globale Variable, damit sie auch in der Suche verwendet werden kann
 
 // JSON laden
-fetch('daten/karten.json')
+fetch('karten.json')
   .then(response => response.json())
   .then(json => {
     data = json; // speichern
@@ -43,3 +43,4 @@ searchInput.addEventListener('input', () => {
 
   renderCards(filtered);
 });
+
