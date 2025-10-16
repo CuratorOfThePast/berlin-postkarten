@@ -22,20 +22,22 @@
     "verlag": "Krüger & Co.",
     "quelle": "https://web.archive.org/web/20251013162716/https://www.ebay.de/itm/277271551173",
     "lat": 52.5098084,
-    "lon": 13.3931550,
+    "lon": 13.393155,
     "ohm_node_link": "https://www.openhistoricalmap.org/node/2125014247"
   },
-   {
-    "id": "hotel-zum-grünen-baum",
+  {
+    "id": "hotel-zum-grünen-baum-2",
     "titel": "Hotel zum Grünen Baum",
     "jahr": "unbekannt",
     "vorderseite": "https://web.archive.org/web/2/https://i.ebayimg.com/images/g/6EEAAeSwz5lnsL4q/s-l960.jpg",
     "rueckseite": "https://web.archive.org/web/2/https://i.ebayimg.com/images/g/oe8AAeSw2iNnsL4q/s-l960.jpg",
     "beschreibung": "Hotel zum Grünen Baum Bes. August Lücke, Krausenstraße 56, 57, 58",
     "verlag": "unbekannt",
-    "quelle": "https://web.archive.org/web/2/https://www.ebay.de/itm/235959889357"
+    "quelle": "https://web.archive.org/web/2/https://www.ebay.de/itm/235959889357",
+    "lat": 52.5098084,
+    "lon": 13.393155
   },
-   {
+  {
     "id": "bierhaus-zum-klaussner",
     "titel": "Bierhaus Zum Klaussner",
     "jahr": "unbekannt",
@@ -45,7 +47,7 @@
     "verlag": "Kunstanstalt Voremberg",
     "quelle": "https://web.archive.org/web/20251013165209/https://www.ebay.de/itm/317297069824"
   },
-   {
+  {
     "id": "hotel-weißes-haus",
     "titel": "Hotel zum Grünen Baum",
     "jahr": "unbekannt",
@@ -56,7 +58,7 @@
     "quelle": "https://www.ebay.de/itm/387960275714"
   },
   {
-    "id": "hotel-weißes-haus",
+    "id": "hotel-weißes-haus-2",
     "titel": "Zum Klaussner",
     "jahr": "unbekannt",
     "vorderseite": "https://web.archive.org/web/20251015143111/https://i.ebayimg.com/images/g/WooAAeSwft1oup7E/s-l1600.jpg",
@@ -74,9 +76,75 @@
     "beschreibung": "Zur Erinnerung a.d. 200 jähriges Bestehen der Stadt Charlottenburg und der Einweihung des neuen Rathauses, 1705–1905",
     "verlag": "A. D. & Co.",
     "quelle": "https://www.ebay.de/itm/397135282399"
+  },
+  {
+    "id": "zum-klaussner-1925",
+    "titel": "Zum Klaussner 50-jähriges Jubiläum",
+    "jahr": "1926",
+    "vorderseite": "https://web.archive.org/web/20251016183349/https://i.ebayimg.com/images/g/yyYAAeSwXHVo3Bb3/s-l1600.jpg",
+    "rueckseite": "https://web.archive.org/web/20251016183537/https://i.ebayimg.com/images/g/4M8AAeSwsWpo3Bb3/s-l1600.jpg",
+    "beschreibung": "50-jähriges Jubiläum der Gaststätte Zum Klaussner in der Krausenstraße 64",
+    "verlag": "Zander & Labisch Phot.",
+    "quelle": "https://www.ebay.de/itm/317353803824",
+    "lat": 52.50964955,
+    "lon": 13.39139913
+  },
+  {
+    "id": "zum-klaussner-1934",
+    "titel": "Gasthaus Zum Klaussner, Krausenstraße 64",
+    "jahr": "1934",
+    "vorderseite": "https://web.archive.org/web/20251016184151/https://i.ebayimg.com/images/g/tLcAAOSwhYVnIrYI/s-l1600.jpg",
+    "rueckseite": "https://web.archive.org/web/20251016184334/https://i.ebayimg.com/images/g/aLwAAOSw-p1nIrYI/s-l1600.jpg",
+    "beschreibung": "",
+    "verlag": "Kunstanstalt Voremberg",
+    "quelle": "https://www.ebay.de/itm/365205305501",
+    "lat": 52.50965105,
+    "lon": 13.39140159
+  },
+  {
+    "id": "weinstuben-kempinski-1908",
+    "titel": "Weinstuben Kempinski, Krausenstraße 12-14",
+    "jahr": "1908",
+    "vorderseite": "https://web.archive.org/web/20251016184541/https://i.ebayimg.com/images/g/RucAAeSw9hZoi04x/s-l1600.jpg",
+    "rueckseite": "https://web.archive.org/web/20251016184636/https://i.ebayimg.com/images/g/yCgAAeSwTWhoi04w/s-l1600.jpg",
+    "beschreibung": "",
+    "verlag": "W. Hagelberg Akt. Ges., Berlin",
+    "quelle": "https://www.ebay.de/itm/277299925778"
+  },
+  {
+    "id": "zum-klausner-1896",
+    "titel": "Restaurant zum Klausner, Krausenstrasse 64",
+    "jahr": "1896",
+    "vorderseite": "https://web.archive.org/web/20251016185022/https://i.ebayimg.com/images/g/DV4AAeSwlbto3PH8/s-l1600.jpg",
+    "rueckseite": "https://web.archive.org/web/20251016185028/https://i.ebayimg.com/images/g/CroAAeSwL4No3PH8/s-l1600.jpg",
+    "beschreibung": "",
+    "verlag": "Krüger & Co, Berlin",
+    "quelle": "https://www.ebay.de/itm/389037159670",
+    "lat": 52.50967449,
+    "lon": 13.39140395
+  },
+  {
+    "id": "frankes-weinstuben",
+    "titel": "Restaurant Franke's Weinstuben",
+    "jahr": "unbekannt",
+    "vorderseite": "https://web.archive.org/web/20251016185439/https://i.ebayimg.com/images/g/XOIAAeSwQ~Fo3PNY/s-l1600.jpg",
+    "rueckseite": "https://web.archive.org/web/20251016185446/https://i.ebayimg.com/images/g/t30AAeSwoO5o3PNX/s-l1600.jpg",
+    "beschreibung": "Restaurant Franke's Weinstuben, Krausenstraße 41 am Dönhoffplatz",
+    "verlag": "J. Wieland & Co, Berlin",
+    "quelle": "https://www.ebay.de/itm/277415471321",
+    "lat": 52.50980422,
+    "lon": 13.39908324
+  },
+  {
+    "id": "weißes-haus-krausenstraße",
+    "titel": "Hotel Weisses Haus, Krausenstraße 1",
+    "jahr": "unbekannt",
+    "vorderseite": "https://web.archive.org/web/20251016185841/https://i.ebayimg.com/images/g/bRcAAeSw5QFo3PV3/s-l1600.jpg",
+    "rueckseite": "https://web.archive.org/web/20251016185847/https://i.ebayimg.com/images/g/a80AAeSwfcBo3PV3/s-l1600.jpg",
+    "beschreibung": "",
+    "verlag": "Graphische Instiut Urania, Berlin",
+    "quelle": "https://www.ebay.de/itm/277415486736",
+    "lat": 52.50917745,
+    "lon": 13.38921064
   }
-
 ]
-
-
-
