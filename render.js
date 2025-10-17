@@ -40,20 +40,26 @@ fetch('karten.json')
   .then(json => {
     data = json; // speichern
 
-    // Karte rendern
-    data.forEach(k => {
-      if(k.lat && k.lon) {
-        L.marker([k.lat, k.lon])
-          .bindPopup(`
-            <b>${k.titel}</b> (${k.jahr || 'unbekannt'})<br>
-            <p>${k.beschreibung}</p>
-            <img src="${k.vorderseite}" width="200"><br>
-            ${k.rueckseite ? `<img src="${k.rueckseite}" width="200"><br>` : ''}
-            ${k.ohm_node_link ? `<a href="${k.ohm_node_link}" target="_blank">In OHM ansehen</a>` : ''}
-          `)
-          .addTo(map);
-      }
-    });
+  // Cluster-Gruppe erstellen
+const markers = L.markerClusterGroup();
+
+data.forEach(k => {
+  if (k.lat && k.lon) {
+    const marker = L.marker([k.lat, k.lon])
+      .bindPopup(`
+        <b>${k.titel}</b> (${k.jahr || 'unbekannt'})<br>
+        <p>${k.beschreibung}</p>
+        <img src="${k.vorderseite}" width="200"><br>
+        ${k.rueckseite ? `<img src="${k.rueckseite}" width="200"><br>` : ''}
+        ${k.ohm_node_link ? `<a href="${k.ohm_node_link}" target="_blank">In OHM ansehen</a>` : ''}
+      `);
+    markers.addLayer(marker);
+  }
+});
+
+// Cluster zur Karte hinzufügen
+map.addLayer(markers);
+
 
     // Liste rendern
     renderCards(data);
@@ -96,6 +102,7 @@ if(searchInput) {
     renderCards(filtered);
   });
 }
+
 
 
 
